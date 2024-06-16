@@ -1,0 +1,46 @@
+/* UpcomingEvents.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.postContainer {
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.userAvatar {
+  margin-right: 10px;
+}
+
+.userName {
+  font-weight: bold;
+}
+
+.eventImage {
+  width: 100%;
+  height: 200px; /* Adjust height as needed */
+  margin-bottom: 10px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.postDescription {
+  margin-bottom: 10px;
+}
+
+.postTimestamp {
+  color: #777;
+  font-size: 12px;
+}
